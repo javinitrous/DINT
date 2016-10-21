@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Practica_3
 {
+    public class SinonimoArray
+    {
+        private string[][] sinonimos = new string[3][];
+    }
+
+
+
     class Program
     {
         static void Main(string[] args)
