@@ -36,6 +36,7 @@ namespace practica5
 
             int suma = 0;
             EnteroLargo resultado;
+
             for(int i = num1.longitud; i > 0; i--)
             {
                 suma = Convert.ToInt32 (num1.numero[i].ToString()) + Convert.ToInt32(num2.numero[i].ToString());
@@ -56,7 +57,9 @@ namespace practica5
     {
         static void Main(string[] args)
         {
-            
+
+            Console.WriteLine("== Pulsa cualquier tecla para salir ==");
+            Console.ReadKey();
         }
     }
 }
